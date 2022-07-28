@@ -1,6 +1,7 @@
 ## CRUD
 
 [Tutorial 01](https://www.youtube.com/watch?v=e0He6sCiQT8&ab_channel=VitorCunhaCode)
+
 [Tutorial 02](https://www.youtube.com/watch?v=5_9rvyT9cg4&ab_channel=VitorCunhaCode)
 
 
