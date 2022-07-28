@@ -1,16 +1,16 @@
-const express = require('express') //Line 1
-const app = express() //Line 2
-const port = process.env.PORT || 5000 //Line 3
+const express = require('express')
+const app = express()
+const port = process.env.PORT || 5000
+const db = require('mysql')
 
-// This displays message that the server running and listening to specified port
-app.listen(port, () => console.log(`Listening on port ${port}`)) 
+app.listen(port, () => console.log(`Listening on port ${port}`))
 
 // create a GET route
 app.get('/express_backend', (req, res) => {
   //Line 9
-  res.send({ express: 'YOUR EXPRESS BACKEND IS CONNECTED TO REACT' }) 
-}) 
+  res.send({ express: 'YOUR EXPRESS BACKEND IS CONNECTED TO REACT' })
+})
 
-app.get("/", (req, res) => {
-  res.send("hello word!");
- })
+app.get('/', (req, res) => {
+  res.send('hello word!')
+})
